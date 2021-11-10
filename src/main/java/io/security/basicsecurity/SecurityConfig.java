@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@Configuration
+//@Configuration @EnableWebSecurity에 포함됨
 @EnableWebSecurity // security 관련 클래스 import해서 실행
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
